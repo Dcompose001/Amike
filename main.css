@@ -105,3 +105,19 @@ header>img{
 #services {
     background: #1f2234;
 }
+
+.services-card >h1,p{
+    color: white;
+}
+.services-card {
+    width: 400px;
+    margin-bottom:20px;
+    box-sizing: border-box;
+    width: 250px;
+    border: 2px solid #ff4a54;
+}
+
+.remote {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
